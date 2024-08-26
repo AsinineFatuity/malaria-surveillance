@@ -133,15 +133,15 @@
         "person": true
       },
       {
-        "id": "community_health_area",
+        "id": "community_health_unit",
         "icon": "community-health-area",
-        "name_key": "contact.type.community_health_area",
-        "group_key": "contact.type.community_health_area.plural",
-        "create_key": "contact.type.community_health_area.new",
-        "edit_key": "contact.type.community_health_area.edit",
-        "create_form": "create_community_health_area",
+        "name_key": "contact.type.community_health_unit",
+        "group_key": "contact.type.community_health_unit.plural",
+        "create_key": "contact.type.community_health_unit.new",
+        "edit_key": "contact.type.community_health_unit.edit",
+        "create_form": "create_community_health_unit",
         "parents": ["area_supervisor_region"],
-        "edit_form": "edit_community_health_area"
+        "edit_form": "edit_community_health_unit"
       },
       {
         "id": "community_health_volunteer",
@@ -150,7 +150,7 @@
         "group_key": "contact.type.community_health_volunteer.plural",
         "create_key": "contact.type.community_health_volunteer.new",
         "edit_key": "contact.type.community_health_volunteer.edit",
-        "parents": ["community_health_area"],
+        "parents": ["community_health_unit"],
         "create_form": "create_community_health_volunteer",
         "edit_form": "edit_community_health_volunteer",
         "person": true
@@ -162,7 +162,7 @@
         "group_key": "contact.type.household.plural",
         "create_key": "contact.type.household.new",
         "edit_key": "contact.type.household.edit",
-        "parents": ["community_health_area"],
+        "parents": ["community_health_unit"],
         "create_form": "create_household",
         "edit_form": "edit_household"
       },
