@@ -21679,9 +21679,9 @@
       <bind nodeset="/data/community_health_area/meta/last_edited_by" type="string" calculate="../../../inputs/user/name"/>
       <bind nodeset="/data/community_health_area/meta/last_edited_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
       <bind nodeset="/data/community_health_area/meta/last_edited_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
-      <bind nodeset="/data/init/place_type" type="select1" calculate="&quot;PLACE_TYPE&quot;"/>
+      <bind nodeset="/data/init/place_type" type="select1" calculate="&quot;edit_community_health_unit&quot;"/>
       <bind nodeset="/data/init/place_type_translation" type="string" calculate="jr:choice-name( /data/init/place_type ,' /data/init/place_type ')"/>
-      <bind nodeset="/data/init/select_generated_name" type="select1" calculate="&quot;PLACE_TYPE&quot;"/>
+      <bind nodeset="/data/init/select_generated_name" type="select1" calculate="&quot;edit_community_health_unit&quot;"/>
       <bind nodeset="/data/init/generated_name_translation" type="string" calculate="if (boolean( /data/community_health_area/contact/_id ), jr:choice-name( /data/init/select_generated_name ,' /data/init/select_generated_name '), '')"/>
       <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
