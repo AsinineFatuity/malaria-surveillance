@@ -101,23 +101,17 @@
           <text id="/data/household/vaccines:label">
             <value>Select vaccines</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Health Facility</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Supervisor Region</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
-            <value>Community Health Area</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value><output value=" /data/household/contact/contact_name "/>'s Health Facility</value>
+            <value>Community Health Unit</value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value><output value=" /data/household/contact/contact_name "/>'s Supervisor Region</value>
           </text>
           <text id="/data/init/select_generated_name/community_health_area:label">
-            <value><output value=" /data/household/contact/contact_name "/>'s Community Health Area</value>
+            <value><output value=" /data/household/contact/contact_name "/>'s Community Health Unit</value>
           </text>
         </translation>
         <translation lang="fr">
@@ -217,17 +211,11 @@
           <text id="/data/household/vaccines:label">
             <value>Vaccins</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>District</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Centre de santé</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
             <value>Zone</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value>District de <output value=" /data/household/contact/contact_name "/></value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value>Centre de santé de <output value=" /data/household/contact/contact_name "/></value>
@@ -333,17 +321,11 @@
           <text id="/data/household/vaccines:label">
             <value>टीकाकरण चुनें</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>ज़िला</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>स्वास्थ्य केंद्र</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
             <value>क्षेत्र</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value><output value=" /data/household/contact/contact_name "/> का ज़िला</value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value><output value=" /data/household/contact/contact_name "/> का स्वास्थ्य केंद्र</value>
@@ -449,17 +431,11 @@
           <text id="/data/household/vaccines:label">
             <value>Pilih Jenis Vaksin</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Kabupaten</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Fasilitas Kesehatan</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
             <value>Daerah</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value>Kabupaten <output value=" /data/household/contact/contact_name "/></value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value>Fasilitas Kesehatan <output value=" /data/household/contact/contact_name "/></value>
@@ -565,17 +541,11 @@
           <text id="/data/household/vaccines:label">
             <value>-</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>जिल्ला</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>स्वास्थ्य केन्द्र</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
             <value>क्षेत्र</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value><output value=" /data/household/contact/contact_name "/>को जिल्ला</value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value><output value=" /data/household/contact/contact_name "/>को स्वास्थ्य केन्द्र</value>
@@ -681,17 +651,11 @@
           <text id="/data/household/vaccines:label">
             <value>-</value>
           </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Wilaya</value>
-          </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Kituo cha afya</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
             <value>Eneo</value>
-          </text>
-          <text id="/data/init/select_generated_name/area_health_facility:label">
-            <value>WIlaya ya  <output value=" /data/household/contact/contact_name "/></value>
           </text>
           <text id="/data/init/select_generated_name/area_supervisor_region:label">
             <value>Kituo cha afya cha  <output value=" /data/household/contact/contact_name "/></value>
@@ -702,7 +666,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:household:edit" prefix="J1!contact:household:edit!" delimiter="#" version="2023-05-25  9-54">
+        <data id="contact:household:edit" prefix="J1!contact:household:edit!" delimiter="#" version="2024-09-03 0-38">
           <inputs>
             <meta>
               <location>
@@ -913,10 +877,6 @@
     <group appearance="field-list hidden" ref="/data/init">
       <select1 appearance="hidden" ref="/data/init/place_type">
         <item>
-          <label ref="jr:itext('/data/init/place_type/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
-        <item>
           <label ref="jr:itext('/data/init/place_type/area_supervisor_region:label')"/>
           <value>area_supervisor_region</value>
         </item>
@@ -930,10 +890,6 @@
         </item>
       </select1>
       <select1 appearance="hidden" ref="/data/init/select_generated_name">
-        <item>
-          <label ref="jr:itext('/data/init/select_generated_name/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
         <item>
           <label ref="jr:itext('/data/init/select_generated_name/area_supervisor_region:label')"/>
           <value>area_supervisor_region</value>

@@ -111,22 +111,10 @@
             <value>Alternate Phone Number</value>
           </text>
           <text id="/data/contact/role/chw:label">
-            <value>CHW</value>
+            <value>CHP</value>
           </text>
           <text id="/data/contact/role/chw_supervisor:label">
-            <value>CHW Supervisor</value>
-          </text>
-          <text id="/data/contact/role/manager:label">
-            <value>Facility Manager</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>Nurse</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>Other</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>Patient</value>
+            <value>CHP Supervisor</value>
           </text>
           <text id="/data/contact/role:label">
             <value>Role</value>
@@ -152,26 +140,20 @@
           <text id="/data/init/custom_place_name:label">
             <value>Name of this <output value=" /data/init/place_type_translation "/></value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value><output value=" /data/init/contact_name "/>'s Health Facility</value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value><output value=" /data/init/contact_name "/>'s Supervisor Region</value>
           </text>
           <text id="/data/init/generated_name/community_health_area:label">
-            <value><output value=" /data/init/contact_name "/>'s Community Health Area</value>
+            <value><output value=" /data/init/contact_name "/>'s Community Health Unit</value>
           </text>
           <text id="/data/init/generated_name/household:label">
             <value><output value=" /data/init/contact_name "/>'s Household</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Health Facility</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Supervisor Region</value>
           </text>
           <text id="/data/init/place_type/community_health_area:label">
-            <value>Community Health Area</value>
+            <value>Community Health Unit</value>
           </text>
           <text id="/data/init/place_type/household:label">
             <value>Household</value>
@@ -298,18 +280,6 @@
           <text id="/data/contact/role/chw_supervisor:label">
             <value>Superviseur ASC</value>
           </text>
-          <text id="/data/contact/role/manager:label">
-            <value>Staff médical</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>Infirmier</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>Autre</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>Patient</value>
-          </text>
           <text id="/data/contact/role:label">
             <value>Rôle</value>
           </text>
@@ -334,9 +304,6 @@
           <text id="/data/init/custom_place_name:label">
             <value>Nom pour <output value=" /data/init/place_type_translation "/></value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value>District de <output value=" /data/init/contact_name "/></value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value>Centre de santé de <output value=" /data/init/contact_name "/></value>
           </text>
@@ -345,9 +312,6 @@
           </text>
           <text id="/data/init/generated_name/household:label">
             <value>-</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>District</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Centre de santé</value>
@@ -480,18 +444,6 @@
           <text id="/data/contact/role/chw_supervisor:label">
             <value>सामुदायिक स्वास्थ्य कर्मी के मैनेजर</value>
           </text>
-          <text id="/data/contact/role/manager:label">
-            <value>स्वास्थ्य केंद्र के मैनजर</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>नर्स</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>अन्य</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>मरीज़</value>
-          </text>
           <text id="/data/contact/role:label">
             <value>भूमिका</value>
           </text>
@@ -516,9 +468,6 @@
           <text id="/data/init/custom_place_name:label">
             <value>इस स्थान का नाम <output value=" /data/init/place_type_translation "/></value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value><output value=" /data/init/contact_name "/> का ज़िला</value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value><output value=" /data/init/contact_name "/> का स्वास्थ्य केंद्र</value>
           </text>
@@ -527,9 +476,6 @@
           </text>
           <text id="/data/init/generated_name/household:label">
             <value>-</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>ज़िला</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>स्वास्थ्य केंद्र</value>
@@ -662,18 +608,6 @@
           <text id="/data/contact/role/chw_supervisor:label">
             <value>Kader Pengawas</value>
           </text>
-          <text id="/data/contact/role/manager:label">
-            <value>Manajer Fasilitas</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>Perawat</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>Lain</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>Pasien</value>
-          </text>
           <text id="/data/contact/role:label">
             <value>Peran</value>
           </text>
@@ -698,9 +632,6 @@
           <text id="/data/init/custom_place_name:label">
             <value>Masukkan nama tempat ini</value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value>Kabupaten <output value=" /data/init/contact_name "/></value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value>Fasilitas Kesehatan <output value=" /data/init/contact_name "/></value>
           </text>
@@ -709,9 +640,6 @@
           </text>
           <text id="/data/init/generated_name/household:label">
             <value>-</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Kabupaten</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Fasilitas Kesehatan</value>
@@ -844,18 +772,6 @@
           <text id="/data/contact/role/chw_supervisor:label">
             <value>महिला स्वास्थ्य स्वयम् सेविकाको सुपरभाइजर</value>
           </text>
-          <text id="/data/contact/role/manager:label">
-            <value>स्वास्थ्य सस्था प्रमुख</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>नर्स</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>अन्य</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>बिरामी</value>
-          </text>
           <text id="/data/contact/role:label">
             <value>भुमिका</value>
           </text>
@@ -880,9 +796,6 @@
           <text id="/data/init/custom_place_name:label">
             <value>यस स्थानको नाम लेख्नुहोस्</value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value><output value=" /data/init/contact_name "/>को जिल्ला</value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value><output value=" /data/init/contact_name "/>को स्वास्थ्य केन्द्र</value>
           </text>
@@ -891,9 +804,6 @@
           </text>
           <text id="/data/init/generated_name/household:label">
             <value>-</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>जिल्ला</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>स्वास्थ्य केन्द्र</value>
@@ -1026,18 +936,6 @@
           <text id="/data/contact/role/chw_supervisor:label">
             <value>Mkuu wa wahudumu wa afya</value>
           </text>
-          <text id="/data/contact/role/manager:label">
-            <value>Meneja wa Kituo cha afya</value>
-          </text>
-          <text id="/data/contact/role/nurse:label">
-            <value>Muuguzi</value>
-          </text>
-          <text id="/data/contact/role/other:label">
-            <value>Nyingine</value>
-          </text>
-          <text id="/data/contact/role/patient:label">
-            <value>Mgonjwa</value>
-          </text>
           <text id="/data/contact/role:label">
             <value>Namba ya simu Nyingine</value>
           </text>
@@ -1062,9 +960,6 @@
           <text id="/data/init/custom_place_name:label">
             <value>Jaza jina la eneo hii</value>
           </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value>WIlaya ya  <output value=" /data/init/contact_name "/></value>
-          </text>
           <text id="/data/init/generated_name/area_supervisor_region:label">
             <value>Kituo cha afya cha  <output value=" /data/init/contact_name "/></value>
           </text>
@@ -1073,9 +968,6 @@
           </text>
           <text id="/data/init/generated_name/household:label">
             <value>-</value>
-          </text>
-          <text id="/data/init/place_type/area_health_facility:label">
-            <value>Wilaya</value>
           </text>
           <text id="/data/init/place_type/area_supervisor_region:label">
             <value>Kituo cha afya</value>
@@ -1095,7 +987,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:community_health_unit:create" prefix="J1!contact:community_health_unit:create!" delimiter="#" version="2023-05-25  9-53">
+        <data id="contact:community_health_unit:create" prefix="J1!contact:community_health_unit:create!" delimiter="#" version="2024-09-03 0-36">
           <inputs>
             <meta>
               <location>
@@ -1233,10 +1125,6 @@
       <select1 appearance="hidden" ref="/data/init/place_type">
         <label ref="jr:itext('/data/init/place_type:label')"/>
         <item>
-          <label ref="jr:itext('/data/init/place_type/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
-        <item>
           <label ref="jr:itext('/data/init/place_type/area_supervisor_region:label')"/>
           <value>area_supervisor_region</value>
         </item>
@@ -1250,10 +1138,6 @@
         </item>
       </select1>
       <select1 appearance="hidden" ref="/data/init/generated_name">
-        <item>
-          <label ref="jr:itext('/data/init/generated_name/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
         <item>
           <label ref="jr:itext('/data/init/generated_name/area_supervisor_region:label')"/>
           <value>area_supervisor_region</value>
@@ -1287,22 +1171,6 @@
           <item>
             <label ref="jr:itext('/data/contact/role/chw_supervisor:label')"/>
             <value>chw_supervisor</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/role/nurse:label')"/>
-            <value>nurse</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/role/manager:label')"/>
-            <value>manager</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/role/patient:label')"/>
-            <value>patient</value>
-          </item>
-          <item>
-            <label ref="jr:itext('/data/contact/role/other:label')"/>
-            <value>other</value>
           </item>
         </select1>
         <input ref="/data/contact/role_other">
