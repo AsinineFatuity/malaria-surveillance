@@ -21,22 +21,10 @@
             <value>Alternate Phone Number</value>
           </text>
           <text id="/data/area_community_health_supervisor/role/chw:label">
-            <value>CHW</value>
+            <value>CHP</value>
           </text>
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
-            <value>CHW Supervisor</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>Facility Manager</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>Nurse</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>Other</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>Patient</value>
+            <value>CHP Supervisor</value>
           </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>Role</value>
@@ -73,18 +61,6 @@
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
             <value>Superviseur ASC</value>
           </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>Staff médical</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>Infirmier</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>Autre</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>Patient</value>
-          </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>Rôle</value>
           </text>
@@ -119,18 +95,6 @@
           </text>
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
             <value>सामुदायिक स्वास्थ्य कर्मी के मैनेजर</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>स्वास्थ्य केंद्र के मैनजर</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>नर्स</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>अन्य</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>मरीज़</value>
           </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>भूमिका</value>
@@ -167,18 +131,6 @@
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
             <value>Kader Pengawas</value>
           </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>Manajer Fasilitas</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>Perawat</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>Lain</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>Pasien</value>
-          </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>Peran</value>
           </text>
@@ -213,18 +165,6 @@
           </text>
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
             <value>महिला स्वास्थ्य स्वयम् सेविकाको सुपरभाइजर</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>स्वास्थ्य सस्था प्रमुख</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>नर्स</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>अन्य</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>बिरामी</value>
           </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>भुमिका</value>
@@ -261,18 +201,6 @@
           <text id="/data/area_community_health_supervisor/role/chw_supervisor:label">
             <value>Mkuu wa wahudumu wa afya</value>
           </text>
-          <text id="/data/area_community_health_supervisor/role/manager:label">
-            <value>Meneja wa Kituo cha afya</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/nurse:label">
-            <value>Muuguzi</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/other:label">
-            <value>Nyingine</value>
-          </text>
-          <text id="/data/area_community_health_supervisor/role/patient:label">
-            <value>Mgonjwa</value>
-          </text>
           <text id="/data/area_community_health_supervisor/role:label">
             <value>Namba ya simu Nyingine</value>
           </text>
@@ -285,7 +213,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:edit_chp_supervisor" prefix="J1!contact:edit_chp_supervisor!" delimiter="#" version="2024-09-02 23-55">
+        <data id="contact:edit_chp_supervisor" prefix="J1!contact:edit_chp_supervisor!" delimiter="#" version="2024-09-03 0-27">
           <inputs>
             <meta>
               <location>
@@ -331,8 +259,8 @@
       <bind nodeset="/data/area_community_health_supervisor/type" type="string"/>
       <bind nodeset="/data/area_community_health_supervisor/contact_type" type="string"/>
       <bind nodeset="/data/area_community_health_supervisor/name" type="string" required="true()"/>
-      <bind nodeset="/data/area_community_health_supervisor/phone" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()"/>
-      <bind nodeset="/data/area_community_health_supervisor/phone_alternate" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()"/>
+      <bind nodeset="/data/area_community_health_supervisor/phone" type="tel" constraint="true()" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678"/>
+      <bind nodeset="/data/area_community_health_supervisor/phone_alternate" type="tel" constraint="true()" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678"/>
       <bind nodeset="/data/area_community_health_supervisor/role" type="select1"/>
       <bind nodeset="/data/area_community_health_supervisor/role_other" type="string" required="true()" relevant="selected(  /data/area_community_health_supervisor/role ,'other')"/>
       <bind nodeset="/data/area_community_health_supervisor/external_id" type="string"/>
@@ -371,22 +299,6 @@
         <item>
           <label ref="jr:itext('/data/area_community_health_supervisor/role/chw_supervisor:label')"/>
           <value>chw_supervisor</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_community_health_supervisor/role/nurse:label')"/>
-          <value>nurse</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_community_health_supervisor/role/manager:label')"/>
-          <value>manager</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_community_health_supervisor/role/patient:label')"/>
-          <value>patient</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_community_health_supervisor/role/other:label')"/>
-          <value>other</value>
         </item>
       </select1>
       <input ref="/data/area_community_health_supervisor/role_other">
