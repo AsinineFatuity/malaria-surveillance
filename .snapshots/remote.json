@@ -7,5 +7,41 @@
   },
   "partners": {
     "192-168-0-111.local-ip.medicmobile.org/medic": "xkmDKIf1k/ehlAiWj43SgQ=="
+  },
+  "form:contact:create_chp_supervisor": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "Ek+ewYYt5uNnZB2HZh0aGg=="
+  },
+  "form:contact:create_chp_supervisor_region": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "lhRNiLF6KQ0mSDAWnWRkkw=="
+  },
+  "form:contact:create_community_health_unit": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "n11rsa6iZJOAfGW4SjW2OQ=="
+  },
+  "form:contact:create_community_health_volunteer": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "wl+EqL9j/CpEpNqsnUlUMA=="
+  },
+  "form:contact:create_household": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "2oM541b4QuZEOwWBXoqgOg=="
+  },
+  "form:contact:create_household_member": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "ccsW8pXC6v0pjBOH0vEpIg=="
+  },
+  "form:contact:edit_chp_supervisor": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "AjVqw0FNTaW5InTfORO2Nw=="
+  },
+  "form:contact:edit_chp_supervisor_region": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "tRb+NbL4vbreaRX1uuS4KQ=="
+  },
+  "form:contact:edit_community_health_unit": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "96ZVEPsfvCHsX/dINcTVlg=="
+  },
+  "form:contact:edit_community_health_volunteer": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "rgs1Dwj3lIFFNTnqI45DCw=="
+  },
+  "form:contact:edit_household": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "lHRBTp9MV5F8n5/X7Apn3w=="
+  },
+  "form:contact:edit_household_member": {
+    "192-168-0-111.local-ip.medicmobile.org/medic": "1bYULGDDLNW6/s2Dv7wS6w=="
   }
 }

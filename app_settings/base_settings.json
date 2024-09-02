@@ -117,8 +117,8 @@
         "group_key": "contact.type.area_supervisor_region.plural",
         "create_key": "contact.type.area_supervisor_region.new",
         "edit_key": "contact.type.area_supervisor_region.edit",
-        "create_form": "create_chp_supervisor_region",
-        "edit_form": "edit_chp_supervisor_region"
+        "create_form": "contact:create_chp_supervisor_region",
+        "edit_form": "contact:edit_chp_supervisor_region"
       },
       {
         "id": "area_community_health_supervisor",
@@ -128,8 +128,8 @@
         "create_key": "contact.type.area_community_health_supervisor.new",
         "edit_key": "contact.type.area_community_health_supervisor.edit",
         "parents": ["area_supervisor_region"],
-        "create_form": "create_chp_supervisor",
-        "edit_form": "edit_chp_supervisor",
+        "create_form": "contact:create_chp_supervisor",
+        "edit_form": "contact:edit_chp_supervisor",
         "person": true
       },
       {
@@ -139,9 +139,9 @@
         "group_key": "contact.type.community_health_unit.plural",
         "create_key": "contact.type.community_health_unit.new",
         "edit_key": "contact.type.community_health_unit.edit",
-        "create_form": "create_community_health_unit",
+        "create_form": "contact:create_community_health_unit",
         "parents": ["area_supervisor_region"],
-        "edit_form": "edit_community_health_unit"
+        "edit_form": "contact:edit_community_health_unit"
       },
       {
         "id": "community_health_volunteer",
@@ -151,8 +151,8 @@
         "create_key": "contact.type.community_health_volunteer.new",
         "edit_key": "contact.type.community_health_volunteer.edit",
         "parents": ["community_health_unit"],
-        "create_form": "create_community_health_volunteer",
-        "edit_form": "edit_community_health_volunteer",
+        "create_form": "contact:create_community_health_volunteer",
+        "edit_form": "contact:edit_community_health_volunteer",
         "person": true
       },
       {
@@ -163,8 +163,8 @@
         "create_key": "contact.type.household.new",
         "edit_key": "contact.type.household.edit",
         "parents": ["community_health_unit"],
-        "create_form": "create_household",
-        "edit_form": "edit_household"
+        "create_form": "contact:create_household",
+        "edit_form": "contact:edit_household"
       },
       {
         "id": "household_member",
@@ -174,8 +174,8 @@
         "create_key": "contact.type.household_member.new",
         "edit_key": "contact.type.household_member.edit",
         "parents": ["household"],
-        "create_form": "create_household_member",
-        "edit_form": "edit_household_member",
+        "create_form": "contact:create_household_member",
+        "edit_form": "contact:edit_household_member",
         "person": true
       },
       {
