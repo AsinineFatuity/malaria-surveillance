@@ -13,12 +13,17 @@
   "locale_outgoing": "en",
   "date_format": "D MMM, YYYY",
   "reported_date_format": "DD-MMM-YYYY HH:mm:ss",
+  "place_hierarchy_types": [
+    "area_supervisor_region",
+    "community_health_unit",
+    "household"
+  ],
   "roles": {
     "program_officer": {
       "name": "Program Officer"
     },
     "chp_supervisor": {
-      "name": "Community Health Assistant (CHA)",
+      "name": "CHP Supervisor (CHA)",
       "offline": true
     },
     "chp": {
@@ -206,9 +211,34 @@
       "program_officer"
     ],
     "can_view_old_filter_and_search": [],
+    "can_have_multiple_places": [],
     "can_view_old_action_bar": []
   },
   "contact_types": [
+    {
+      "id": "area_health_facility",
+      "icon": "area-health-facility",
+      "name_key": "contact.type.area_health_facility",
+      "group_key": "contact.type.area_health_facility.plural",
+      "create_key": "contact.type.area_health_facility.new",
+      "edit_key": "contact.type.area_health_facility.edit",
+      "create_form": "form:contact:area_health_facility:create",
+      "edit_form": "form:contact:area_health_facility:edit"
+    },
+    {
+      "id": "area_health_facility_nurse",
+      "icon": "area-health-facility-nurse",
+      "name_key": "contact.type.area_health_facility_nurse",
+      "group_key": "contact.type.area_health_facility_nurse.plural",
+      "create_key": "contact.type.area_health_facility_nurse.new",
+      "edit_key": "contact.type.area_health_facility_nurse.edit",
+      "parents": [
+        "area_health_facility"
+      ],
+      "create_form": "form:contact:area_health_facility_nurse:create",
+      "edit_form": "form:contact:area_health_facility_nurse:edit",
+      "person": true
+    },
     {
       "id": "area_supervisor_region",
       "icon": "area-supervisor-region",
@@ -254,6 +284,7 @@
       "create_key": "contact.type.community_health_volunteer.new",
       "edit_key": "contact.type.community_health_volunteer.edit",
       "parents": [
+        "area_community_health_supervisor",
         "community_health_unit"
       ],
       "create_form": "contact:create_community_health_volunteer",
@@ -268,6 +299,7 @@
       "create_key": "contact.type.household.new",
       "edit_key": "contact.type.household.edit",
       "parents": [
+        "area_community_health_supervisor",
         "community_health_unit"
       ],
       "create_form": "contact:create_household",
@@ -281,6 +313,8 @@
       "create_key": "contact.type.household_member.new",
       "edit_key": "contact.type.household_member.edit",
       "parents": [
+        "area_community_health_supervisor",
+        "community_health_unit",
         "household"
       ],
       "create_form": "contact:create_household_member",
@@ -293,6 +327,8 @@
       "name_key": "contact.type.household_contact",
       "group_key": "contact.type.household_contact.plural",
       "parents": [
+        "area_community_health_supervisor",
+        "community_health_unit",
         "household"
       ],
       "person": true
