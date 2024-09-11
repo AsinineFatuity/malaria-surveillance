@@ -14,34 +14,21 @@
   "date_format": "D MMM, YYYY",
   "reported_date_format": "DD-MMM-YYYY HH:mm:ss",
   "roles": {
-    "data_entry": {
-      "name": "usertype.data-entry"
-    },
-    "dso": {
-      "name": "Disease Surveillance Officer",
-      "offline": true
-    },
-    "facility_Dsteam": {
-      "name": "Facility disease surveillance team"
-    },
     "analytics": {
-      "name": "usertype.analytics"
+      "name": "Analytics"
     },
     "gateway": {
-      "name": "usertype.gateway"
+      "name": "Gateway"
     },
     "program_officer": {
-      "name": "usertype.program-officer"
-    },
-    "crfo": {
-      "name": "usertype.crfo"
+      "name": "Program Officer (App Admin)"
     },
     "chp_supervisor": {
-      "name": "usertype.chp-supervisor",
+      "name": "CHP Supervisor",
       "offline": true
     },
     "chp": {
-      "name": "usertype.chp",
+      "name": "Community Health Promoter (CHP)",
       "offline": true
     }
   },
@@ -52,13 +39,10 @@
     "can_bulk_delete_reports": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_configure": [
-      "program_officer",
-      "crfo"
+      "program_officer"
     ],
     "can_create_people": [
       "program_officer",
@@ -71,13 +55,10 @@
       "chp"
     ],
     "can_create_records": [
-      "data_entry",
       "gateway",
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_create_users": [
       "program_officer"
@@ -90,14 +71,12 @@
     "can_delete_messages": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_delete_reports": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_delete_users": [
       "program_officer"
@@ -106,14 +85,12 @@
       "gateway",
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_edit_profile": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_edit_verification": [
       "program_officer",
@@ -121,8 +98,7 @@
       "chp"
     ],
     "can_export_all": [
-      "program_officer",
-      "crfo"
+      "program_officer"
     ],
     "can_export_contacts": [
       "program_officer",
@@ -135,7 +111,6 @@
     "can_export_messages": [
       "analytics",
       "program_officer",
-      "dso",
       "chp_supervisor",
       "chp"
     ],
@@ -148,55 +123,42 @@
     "can_update_reports": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_update_users": [
       "program_officer"
     ],
     "can_export_dhis": [
-      "program_officer",
-      "crfo"
+      "program_officer"
     ],
     "can_verify_reports": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso"
+      "chp"
     ],
     "can_view_analytics": [
       "analytics",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_analytics_tab": [
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_call_action": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_contacts": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_contacts_tab": [
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_last_visited_date": [],
     "can_view_uhc_stats": [],
@@ -228,29 +190,21 @@
     ],
     "can_view_tasks": [
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_tasks_tab": [
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_tasks_group": [
       "chp",
-      "dso",
-      "chp_supervisor",
-      "facility_Dsteam"
+      "chp_supervisor"
     ],
     "can_view_unallocated_data_records": [
       "gateway",
       "program_officer",
       "chp_supervisor",
-      "chp",
-      "dso",
-      "facility_Dsteam"
+      "chp"
     ],
     "can_view_users": [
       "program_officer"
