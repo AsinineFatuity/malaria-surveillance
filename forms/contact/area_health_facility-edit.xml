@@ -11,9 +11,6 @@
           <text id="/data/area_health_facility/contact/_id:label">
             <value>Primary Contact</value>
           </text>
-          <text id="/data/area_health_facility/external_id:label">
-            <value>External ID</value>
-          </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
             <value>No, I want to name it manually</value>
           </text>
@@ -28,78 +25,6 @@
           </text>
           <text id="/data/area_health_facility/notes:label">
             <value>Notes</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>Antenatal care</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>Immunizations</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>Postnatal care</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>Select all needed for this <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>Health programs</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
-            <value>BCG</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
-            <value>Cholera</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
-            <value>Influenza</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>Hepatitis A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>HPV (Human Papillomavirus)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>Inactivated Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>Japanese Encephalitis</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>Meningococcal</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>MMR (Measles, Mumps, Rubella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>MMRV (Measles, Mumps, Rubella, Varicella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>Pentavalent</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>Pneumococcal Pneumonia</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>Rotavirus</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>Typhoid</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>Vitamin A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>Yellow Fever</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>Select all needed for this <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
-            <value>Select vaccines</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>Health Facility</value>
@@ -125,9 +50,12 @@
             <value>Sélectionnez le contact primaire</value>
           </text>
           <text id="/data/area_health_facility/contact/_id:label">
-            <value>Contact primaire</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/external_id:label">
+          <text id="/data/area_health_facility/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/contact:label">
             <value>-</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
@@ -137,85 +65,34 @@
             <value>Oui</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated:label">
-            <value>Voulez-vous nommer l'endroit: &quot;<output value=" /data/area_health_facility/generated_name "/>&quot;?</value>
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_person_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_place_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/name:label">
-            <value>Nom pour <output value=" /data/init/place_type_translation "/></value>
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/notes:label">
-            <value>Notes</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>Soins prénataux</value>
+          <text id="/data/area_health_facility/parent:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>Vaccination</value>
+          <text id="/data/area_health_facility/type:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>Soins postnataux</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>Sélectionnez tout ce dont vous avez besoin pour <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>Cas d'utilisation</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
-            <value>BCG</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
-            <value>Choléra</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
-            <value>Grippe</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>Hépatite A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>HPV (virus du papillome humain)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>Polio inactivée</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>Encéphalite japonaise</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>Méningocoque</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>MMR (rougeole, oreillons, rubéole)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>MMRV (rougeole, oreillons, rubéole, varicelle)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>Penta</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>Pneumo</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>Rota</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>Typhoïde</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>Vitamine A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>Fièvre jaune</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>Sélectionnez tout ce dont vous avez besoin pour <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
-            <value>Vaccins</value>
+          <text id="/data/area_health_facility:label">
+            <value>-</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>District</value>
@@ -226,6 +103,9 @@
           <text id="/data/init/place_type/community_health_area:label">
             <value>Zone</value>
           </text>
+          <text id="/data/init/place_type:label">
+            <value>-</value>
+          </text>
           <text id="/data/init/select_generated_name/area_health_facility:label">
             <value>District de <output value=" /data/area_health_facility/contact/contact_name "/></value>
           </text>
@@ -235,16 +115,40 @@
           <text id="/data/init/select_generated_name/community_health_area:label">
             <value>Zone de <output value=" /data/area_health_facility/contact/contact_name "/></value>
           </text>
+          <text id="/data/init/select_generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs:label">
+            <value>-</value>
+          </text>
         </translation>
         <translation lang="hi">
           <text id="/data/area_health_facility/contact/_id:hint">
             <value>प्राथमिक कॉंटॅक्ट चुनें</value>
           </text>
           <text id="/data/area_health_facility/contact/_id:label">
-            <value>प्राथमिक कॉंटॅक्ट</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/external_id:label">
-            <value>बाहरी ID</value>
+          <text id="/data/area_health_facility/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/contact:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
             <value>नहीं, मैं इसे मैन्युअल रूप से नाम देना चाहता हूं</value>
@@ -253,85 +157,34 @@
             <value>हाँ</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated:label">
-            <value>क्या आप इस स्थान को प्राथमिक कॉंटॅक्ट का नाम देना चाहेंगे &quot;<output value=" /data/area_health_facility/generated_name "/>&quot;?</value>
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_person_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_place_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/name:label">
-            <value>इस स्थान का नाम <output value=" /data/init/place_type_translation "/></value>
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/notes:label">
-            <value>नोट्स</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>गर्भावस्था की देखभाल</value>
+          <text id="/data/area_health_facility/parent:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>टीकाकरण</value>
+          <text id="/data/area_health_facility/type:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>गर्भावस्था के बाद की देखभाल</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>इस <output value=" /data/init/place_type_translation "/> के लिए आवश्यक सभी का चयन करें</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>स्वास्थ्य कार्यक्रम</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
-            <value>BCG</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
-            <value>Cholera</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
-            <value>Influenza</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>Hepatitis A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>HPV (Human Papillomavirus)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>Inactivated Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>Japanese Encephalitis</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>Meningococcal</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>MMR (Measles, Mumps, Rubella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>MMRV (Measles, Mumps, Rubella, Varicella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>Pentavalent</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>Pneumococcal Pneumonia</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>Rotavirus</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>Typhoid</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>Vitamin A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>Yellow Fever</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>इस <output value=" /data/init/place_type_translation "/> के लिए आवश्यक सभी का चयन करें</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
-            <value>टीकाकरण चुनें</value>
+          <text id="/data/area_health_facility:label">
+            <value>-</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>ज़िला</value>
@@ -342,6 +195,9 @@
           <text id="/data/init/place_type/community_health_area:label">
             <value>क्षेत्र</value>
           </text>
+          <text id="/data/init/place_type:label">
+            <value>-</value>
+          </text>
           <text id="/data/init/select_generated_name/area_health_facility:label">
             <value><output value=" /data/area_health_facility/contact/contact_name "/> का ज़िला</value>
           </text>
@@ -351,16 +207,40 @@
           <text id="/data/init/select_generated_name/community_health_area:label">
             <value><output value=" /data/area_health_facility/contact/contact_name "/> का क्षेत्र</value>
           </text>
+          <text id="/data/init/select_generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs:label">
+            <value>-</value>
+          </text>
         </translation>
         <translation lang="id">
           <text id="/data/area_health_facility/contact/_id:hint">
             <value>Pilih Kontak Utama</value>
           </text>
           <text id="/data/area_health_facility/contact/_id:label">
-            <value>Kontak Utama</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/external_id:label">
-            <value>Eksternal ID</value>
+          <text id="/data/area_health_facility/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/contact:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
             <value>Tidak, saya ingin nama itu secara manual</value>
@@ -369,85 +249,34 @@
             <value>Iya</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated:label">
-            <value>Apakah Anda ingin nama tempat setelah kontak utama: &quot;<output value=" /data/area_health_facility/generated_name "/>&quot;?</value>
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_person_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_place_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/name:label">
-            <value>Masukkan nama tempat ini</value>
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/notes:label">
-            <value>Catatan</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>Perawatan Antenatal</value>
+          <text id="/data/area_health_facility/parent:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>Imunisasi</value>
+          <text id="/data/area_health_facility/type:label">
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>Perawatan Setelah Melahirkan</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>Pilih semua yang diperlukan untuk ini <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>Program Kesehatan</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
-            <value>BCG</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
-            <value>Kolera</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
-            <value>Influenza</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>Hepatitis A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>HPV (Human Papillomavirus)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>Inactivated Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>Japanese Encephalitis</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>Meningococcal</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>MMR (Measles, Mumps, Rubella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>MMRV (Measles, Mumps, Rubella, Varicella)</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>Pentavalent</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>Pneumococcal Pneumonia</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>Polio</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>Rotavirus</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>Typhoid</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>Vitamin A</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>Yellow Fever</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>Pilih semua yang diperlukan untuk ini <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
-            <value>Pilih Jenis Vaksin</value>
+          <text id="/data/area_health_facility:label">
+            <value>-</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>Kabupaten</value>
@@ -458,6 +287,9 @@
           <text id="/data/init/place_type/community_health_area:label">
             <value>Daerah</value>
           </text>
+          <text id="/data/init/place_type:label">
+            <value>-</value>
+          </text>
           <text id="/data/init/select_generated_name/area_health_facility:label">
             <value>Kabupaten <output value=" /data/area_health_facility/contact/contact_name "/></value>
           </text>
@@ -467,16 +299,40 @@
           <text id="/data/init/select_generated_name/community_health_area:label">
             <value>Daerah <output value=" /data/area_health_facility/contact/contact_name "/></value>
           </text>
+          <text id="/data/init/select_generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs:label">
+            <value>-</value>
+          </text>
         </translation>
         <translation lang="ne">
           <text id="/data/area_health_facility/contact/_id:hint">
             <value>प्राथमिक सम्पर्क व्यक्ति छान्नुहोस्</value>
           </text>
           <text id="/data/area_health_facility/contact/_id:label">
-            <value>प्राथमिक सम्पर्क व्यक्ति</value>
+            <value>-</value>
           </text>
-          <text id="/data/area_health_facility/external_id:label">
-            <value>बाहिरी ID</value>
+          <text id="/data/area_health_facility/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/contact:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
             <value>म आफैँ नाम दिन चाहन्छु</value>
@@ -485,84 +341,33 @@
             <value>ठिक छ</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated:label">
-            <value>के तपाई यस स्थानको प्राथमिक सम्पर्क व्यक्तिलाई नाम दिन चाहनुहुन्छ &quot;<output value=" /data/area_health_facility/generated_name "/>&quot;?</value>
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_person_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta/created_by_place_uuid:label">
+            <value>-</value>
+          </text>
+          <text id="/data/area_health_facility/meta:label">
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/name:label">
-            <value>यस स्थानको नाम लेख्नुहोस्</value>
+            <value>-</value>
           </text>
           <text id="/data/area_health_facility/notes:label">
-            <value>टिप्पणी</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>पूर्व प्रसुती स्याहार</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>खोप</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>प्रसुती पश्चातको स्याहार</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>यस <output value=" /data/init/place_type_translation "/> का लागि आवश्यक सब छान्नुहोस्</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>स्वास्थ्य कार्यक्रम</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
             <value>-</value>
           </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
+          <text id="/data/area_health_facility/parent:label">
             <value>-</value>
           </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
+          <text id="/data/area_health_facility/type:label">
             <value>-</value>
           </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>यस <output value=" /data/init/place_type_translation "/> का लागि आवश्यक सब छान्नुहोस्</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
+          <text id="/data/area_health_facility:label">
             <value>-</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
@@ -574,6 +379,9 @@
           <text id="/data/init/place_type/community_health_area:label">
             <value>क्षेत्र</value>
           </text>
+          <text id="/data/init/place_type:label">
+            <value>-</value>
+          </text>
           <text id="/data/init/select_generated_name/area_health_facility:label">
             <value><output value=" /data/area_health_facility/contact/contact_name "/>को जिल्ला</value>
           </text>
@@ -583,6 +391,27 @@
           <text id="/data/init/select_generated_name/community_health_area:label">
             <value><output value=" /data/area_health_facility/contact/contact_name "/>को क्षेत्र</value>
           </text>
+          <text id="/data/init/select_generated_name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/data/inputs:label">
+            <value>-</value>
+          </text>
         </translation>
         <translation lang="sw">
           <text id="/data/area_health_facility/contact/_id:hint">
@@ -590,9 +419,6 @@
           </text>
           <text id="/data/area_health_facility/contact/_id:label">
             <value>Mwasiliwa mkuu</value>
-          </text>
-          <text id="/data/area_health_facility/external_id:label">
-            <value>Namba ya nje</value>
           </text>
           <text id="/data/area_health_facility/is_name_generated/false:label">
             <value>Hapana, ningependa kuijaza mwenyewe</value>
@@ -608,78 +434,6 @@
           </text>
           <text id="/data/area_health_facility/notes:label">
             <value>Maelezo</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/anc:label">
-            <value>Huduma ya kabla ya kuzaa</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/imm:label">
-            <value>Chanjo</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases/pnc:label">
-            <value>Huduma ya baada ya kuzaa</value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:hint">
-            <value>Chagua zote zinazohitajika kwa hii <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/use_cases:label">
-            <value>Huduma za afya</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/bcg:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/cholera:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/flu:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hep_a:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/hpv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/ipv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/jap_enc:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/meningococcal:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmr:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/mmrv:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/penta:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/pneumococcal:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/polio:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/rotavirus:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/typhoid:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/vitamin_a:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines/yellow_fever:label">
-            <value>-</value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:hint">
-            <value>Chagua zote zinazohitajika kwa hii <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/area_health_facility/vaccines:label">
-            <value>-</value>
           </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>Wilaya</value>
@@ -702,7 +456,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:area_health_facility:edit" prefix="J1!contact:area_health_facility:edit!" delimiter="#" version="2023-05-25  9-54">
+        <data id="contact:area_health_facility:edit" prefix="J1!contact:area_health_facility:edit!" delimiter="#" version="2023-05-25  17-17">
           <inputs>
             <meta>
               <location>
@@ -729,9 +483,6 @@
             <is_name_generated/>
             <generated_name/>
             <name/>
-            <external_id/>
-            <use_cases/>
-            <vaccines/>
             <notes/>
             <geolocation/>
             <meta tag="hidden">
@@ -763,12 +514,9 @@
       <bind nodeset="/data/area_health_facility/contact/name" type="string"/>
       <bind nodeset="/data/area_health_facility/contact/contact_name" type="string" calculate="../name"/>
       <bind nodeset="/data/area_health_facility/contact/_id" type="db:person"/>
-      <bind nodeset="/data/area_health_facility/is_name_generated" type="select1" calculate="if(  /data/area_health_facility/generated_name  = ../name, 'true', 'false')" required="true()" readonly="boolean( /data/area_health_facility/contact/_id )" relevant="not( /data/area_health_facility/contact/_id ) or selected( . , 'true') or boolean( /data/area_health_facility/contact/_id )"/>
+      <bind nodeset="/data/area_health_facility/is_name_generated" type="select1" readonly="boolean( /data/area_health_facility/contact/_id )" calculate="if(  /data/area_health_facility/generated_name  = ../name, 'true', 'false')" relevant="not( /data/area_health_facility/contact/_id ) or selected( . , 'true') or boolean( /data/area_health_facility/contact/_id )" required="true()"/>
       <bind nodeset="/data/area_health_facility/generated_name" type="string" calculate=" /data/init/generated_name_translation "/>
       <bind nodeset="/data/area_health_facility/name" type="string" calculate="if( ( selected( /data/area_health_facility/is_name_generated , 'true') or selected( /data/area_health_facility/is_name_generated , 'yes') ),  /data/area_health_facility/generated_name , .)" required="true()" relevant="boolean( /data/area_health_facility/contact/_id ) or not( /data/area_health_facility/contact/_id ) or not(selected( /data/area_health_facility/is_name_generated , 'true')) or not(selected( /data/area_health_facility/is_name_generated , 'yes'))"/>
-      <bind nodeset="/data/area_health_facility/external_id" type="string"/>
-      <bind nodeset="/data/area_health_facility/use_cases" type="select" relevant="../type = 'health_center'"/>
-      <bind nodeset="/data/area_health_facility/vaccines" type="select" relevant="../type = 'health_center' and selected( /data/area_health_facility/use_cases ,'imm')"/>
       <bind nodeset="/data/area_health_facility/notes" type="string"/>
       <bind nodeset="/data/area_health_facility/geolocation" type="string" calculate="concat(../../inputs/meta/location/lat, concat(' ', ../../inputs/meta/location/long))"/>
       <bind nodeset="/data/area_health_facility/meta/created_by" type="string" readonly="true()"/>
@@ -814,97 +562,6 @@
       <input ref="/data/area_health_facility/name">
         <label ref="jr:itext('/data/area_health_facility/name:label')"/>
       </input>
-      <input ref="/data/area_health_facility/external_id">
-        <label ref="jr:itext('/data/area_health_facility/external_id:label')"/>
-      </input>
-      <select ref="/data/area_health_facility/use_cases">
-        <label ref="jr:itext('/data/area_health_facility/use_cases:label')"/>
-        <hint ref="jr:itext('/data/area_health_facility/use_cases:hint')"/>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/use_cases/anc:label')"/>
-          <value>anc</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/use_cases/pnc:label')"/>
-          <value>pnc</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/use_cases/imm:label')"/>
-          <value>imm</value>
-        </item>
-      </select>
-      <select ref="/data/area_health_facility/vaccines">
-        <label ref="jr:itext('/data/area_health_facility/vaccines:label')"/>
-        <hint ref="jr:itext('/data/area_health_facility/vaccines:hint')"/>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/bcg:label')"/>
-          <value>bcg</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/cholera:label')"/>
-          <value>cholera</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/hep_a:label')"/>
-          <value>hep_a</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/hpv:label')"/>
-          <value>hpv</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/flu:label')"/>
-          <value>flu</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/jap_enc:label')"/>
-          <value>jap_enc</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/meningococcal:label')"/>
-          <value>meningococcal</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/mmr:label')"/>
-          <value>mmr</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/mmrv:label')"/>
-          <value>mmrv</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/ipv:label')"/>
-          <value>ipv</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/polio:label')"/>
-          <value>polio</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/penta:label')"/>
-          <value>penta</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/pneumococcal:label')"/>
-          <value>pneumococcal</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/rotavirus:label')"/>
-          <value>rotavirus</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/typhoid:label')"/>
-          <value>typhoid</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/vitamin_a:label')"/>
-          <value>vitamin_a</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/area_health_facility/vaccines/yellow_fever:label')"/>
-          <value>yellow_fever</value>
-        </item>
-      </select>
       <input appearance="multiline" ref="/data/area_health_facility/notes">
         <label ref="jr:itext('/data/area_health_facility/notes:label')"/>
       </input>

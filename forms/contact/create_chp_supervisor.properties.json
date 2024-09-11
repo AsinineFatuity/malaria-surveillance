@@ -1,9 +1,0 @@
-{
-    "icon": "area-community-health-supervisor",
-    "context": {
-      "permission": "",
-      "parent": "area_supervisor_region",
-      "person": true,
-      "place":true
-    }
-  }

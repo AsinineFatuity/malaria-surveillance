@@ -1,21 +1,24 @@
 <?xml version="1.0"?>
 <h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
   <h:head>
-    <h:title>New Community Health Unit</h:title>
+    <h:title>Edit Community Health Area</h:title>
     <model>
       <itext>
         <translation lang="en">
           <text id="/data/community_health_area/cha_code:label">
             <value>Community Health Area Code</value>
           </text>
+          <text id="/data/community_health_area/contact/_id:hint">
+            <value>Select the Primary Contact</value>
+          </text>
+          <text id="/data/community_health_area/contact/_id:label">
+            <value>Primary Contact</value>
+          </text>
           <text id="/data/community_health_area/location:label">
             <value>Location</value>
           </text>
           <text id="/data/community_health_area/name:label">
             <value>Name</value>
-          </text>
-          <text id="/data/community_health_area/other_notes:hint">
-            <value>Provide additional information related to this area</value>
           </text>
           <text id="/data/community_health_area/other_notes:label">
             <value>Other notes</value>
@@ -170,36 +173,6 @@
           <text id="/data/community_health_area/selected_ward:label">
             <value>Ward</value>
           </text>
-          <text id="/data/contact/name:label">
-            <value>Name</value>
-          </text>
-          <text id="/data/contact/phone:label">
-            <value>Phone Number</value>
-          </text>
-          <text id="/data/init/create_new_person/new_person:label">
-            <value>Create a new person</value>
-          </text>
-          <text id="/data/init/create_new_person/old_person:label">
-            <value>Select an existing person</value>
-          </text>
-          <text id="/data/init/create_new_person:label">
-            <value>Set the Primary Contact</value>
-          </text>
-          <text id="/data/init/custom_place_name:label">
-            <value>Name of this <output value=" /data/init/place_type_translation "/></value>
-          </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value><output value=" /data/init/contact_name "/>'s Health Facility</value>
-          </text>
-          <text id="/data/init/generated_name/area_supervisor_region:label">
-            <value><output value=" /data/init/contact_name "/>'s Supervisor Region</value>
-          </text>
-          <text id="/data/init/generated_name/community_health_area:label">
-            <value><output value=" /data/init/contact_name "/>'s Community Health Area</value>
-          </text>
-          <text id="/data/init/generated_name/household:label">
-            <value><output value=" /data/init/contact_name "/>'s Household</value>
-          </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>Health Facility</value>
           </text>
@@ -212,11 +185,17 @@
           <text id="/data/init/place_type/household:label">
             <value>Household</value>
           </text>
-          <text id="/data/init/place_type:label">
-            <value>Enter the name of this place</value>
+          <text id="/data/init/select_generated_name/area_health_facility:label">
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Health Facility</value>
           </text>
-          <text id="/data/init/select_person:label">
-            <value>Select the Primary Contact</value>
+          <text id="/data/init/select_generated_name/area_supervisor_region:label">
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Supervisor Region</value>
+          </text>
+          <text id="/data/init/select_generated_name/community_health_area:label">
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Community Health Area</value>
+          </text>
+          <text id="/data/init/select_generated_name/household:label">
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Household</value>
           </text>
           <text id="static_instance-contact-0">
             <value>Create a new person</value>
@@ -366,16 +345,16 @@
             <value>Marsabit</value>
           </text>
           <text id="static_instance-generated_name-0">
-            <value><output value=" /data/init/contact_name "/>'s Health Facility</value>
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Health Facility</value>
           </text>
           <text id="static_instance-generated_name-1">
-            <value><output value=" /data/init/contact_name "/>'s Supervisor Region</value>
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Supervisor Region</value>
           </text>
           <text id="static_instance-generated_name-2">
-            <value><output value=" /data/init/contact_name "/>'s Community Health Area</value>
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Community Health Area</value>
           </text>
           <text id="static_instance-generated_name-3">
-            <value><output value=" /data/init/contact_name "/>'s Household</value>
+            <value><output value=" /data/community_health_area/contact/contact_name "/>'s Household</value>
           </text>
           <text id="static_instance-place_type-0">
             <value>Health Facility</value>
@@ -5615,25 +5594,22 @@
           <text id="static_instance-yes_no-1">
             <value>No</value>
           </text>
-          <text id="static_instance-yes_no_generated_name-0">
-            <value>Yes</value>
-          </text>
-          <text id="static_instance-yes_no_generated_name-1">
-            <value>No, I want to name it manually</value>
-          </text>
         </translation>
         <translation lang="sw">
           <text id="/data/community_health_area/cha_code:label">
             <value>Kanuni ya Eneo la Afya ya Jamii</value>
+          </text>
+          <text id="/data/community_health_area/contact/_id:hint">
+            <value>Chagua Mwasiliwa mkuu</value>
+          </text>
+          <text id="/data/community_health_area/contact/_id:label">
+            <value>Mwasiliwa mkuu</value>
           </text>
           <text id="/data/community_health_area/location:label">
             <value>Mahali</value>
           </text>
           <text id="/data/community_health_area/name:label">
             <value>Jina</value>
-          </text>
-          <text id="/data/community_health_area/other_notes:hint">
-            <value>-</value>
           </text>
           <text id="/data/community_health_area/other_notes:label">
             <value>Vidokezo vingine</value>
@@ -5788,42 +5764,6 @@
           <text id="/data/community_health_area/selected_ward:label">
             <value>Kata</value>
           </text>
-          <text id="/data/contact/meta:label">
-            <value>-</value>
-          </text>
-          <text id="/data/contact/name:label">
-            <value>Jina</value>
-          </text>
-          <text id="/data/contact/phone:label">
-            <value>Namba ya Simu</value>
-          </text>
-          <text id="/data/contact:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/create_new_person/new_person:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/create_new_person/old_person:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/create_new_person:label">
-            <value>Weka mwasiliwa mkuu</value>
-          </text>
-          <text id="/data/init/custom_place_name:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/generated_name/area_health_facility:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/generated_name/area_supervisor_region:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/generated_name/community_health_area:label">
-            <value>-</value>
-          </text>
-          <text id="/data/init/generated_name/household:label">
-            <value>-</value>
-          </text>
           <text id="/data/init/place_type/area_health_facility:label">
             <value>-</value>
           </text>
@@ -5836,11 +5776,17 @@
           <text id="/data/init/place_type/household:label">
             <value>-</value>
           </text>
-          <text id="/data/init/place_type:label">
-            <value>Jaza jina la eneo hii</value>
+          <text id="/data/init/select_generated_name/area_health_facility:label">
+            <value>-</value>
           </text>
-          <text id="/data/init/select_person:label">
-            <value>Chagua Mwasiliwa mkuu</value>
+          <text id="/data/init/select_generated_name/area_supervisor_region:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init/select_generated_name/community_health_area:label">
+            <value>-</value>
+          </text>
+          <text id="/data/init/select_generated_name/household:label">
+            <value>-</value>
           </text>
           <text id="static_instance-contact-0">
             <value>-</value>
@@ -11239,16 +11185,10 @@
           <text id="static_instance-yes_no-1">
             <value>-</value>
           </text>
-          <text id="static_instance-yes_no_generated_name-0">
-            <value>-</value>
-          </text>
-          <text id="static_instance-yes_no_generated_name-1">
-            <value>-</value>
-          </text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:create_community_health_unit" prefix="J1!contact:create_community_health_unit!" delimiter="#" version="2024-09-02 23-53">
+        <data id="contact:community_health_area:edit" prefix="J1!contact:community_health_area:edit!" delimiter="#" version="2023-06-02  10-41">
           <inputs>
             <meta>
               <location>
@@ -11264,33 +11204,15 @@
               <name/>
             </user>
           </inputs>
-          <init>
-            <create_new_person/>
-            <select_person/>
-            <name/>
-            <contact_name/>
-            <custom_place_name/>
-            <place_type>create_community_health_unit</place_type>
-            <place_type_translation/>
-            <generated_name>create_community_health_unit</generated_name>
-            <generated_name_translation/>
-          </init>
-          <contact>
-            <parent>PARENT</parent>
-            <type>contact</type>
-            <contact_type>community_health_volunteer</contact_type>
-            <name/>
-            <phone/>
-            <meta tag="hidden">
-              <created_by/>
-              <created_by_person_uuid/>
-              <created_by_place_uuid/>
-            </meta>
-          </contact>
           <community_health_area>
-            <parent>PARENT</parent>
-            <type>contact</type>
+            <parent/>
+            <type/>
             <contact_type>community_health_area</contact_type>
+            <contact>
+              <name/>
+              <contact_name/>
+              <_id/>
+            </contact>
             <name/>
             <cha_code/>
             <selected_county/>
@@ -11298,14 +11220,22 @@
             <selected_ward/>
             <location/>
             <other_notes/>
-            <contact/>
             <geolocation/>
             <meta tag="hidden">
               <created_by/>
               <created_by_person_uuid/>
               <created_by_place_uuid/>
+              <last_edited_by/>
+              <last_edited_by_person_uuid/>
+              <last_edited_by_place_uuid/>
             </meta>
           </community_health_area>
+          <init>
+            <place_type/>
+            <place_type_translation/>
+            <select_generated_name/>
+            <generated_name_translation/>
+          </init>
           <meta tag="hidden">
             <instanceID/>
           </meta>
@@ -11372,18 +11302,6 @@
           <item>
             <itextId>static_instance-contact-1</itextId>
             <name>old_person</name>
-          </item>
-        </root>
-      </instance>
-      <instance id="yes_no_generated_name">
-        <root>
-          <item>
-            <itextId>static_instance-yes_no_generated_name-0</itextId>
-            <name>true</name>
-          </item>
-          <item>
-            <itextId>static_instance-yes_no_generated_name-1</itextId>
-            <name>false</name>
           </item>
         </root>
       </instance>
@@ -21741,43 +21659,34 @@
       <bind nodeset="/data/inputs/user/contact_id" type="string"/>
       <bind nodeset="/data/inputs/user/facility_id" type="string"/>
       <bind nodeset="/data/inputs/user/name" type="string"/>
-      <bind nodeset="/data/init/create_new_person" type="select1" required="true()"/>
-      <bind nodeset="/data/init/select_person" type="db:person" required="true()" relevant="selected( /data/init/create_new_person ,'old_person')"/>
-      <bind nodeset="/data/init/name" type="string"/>
-      <bind nodeset="/data/init/contact_name" type="string" calculate="coalesce(../name, ../../contact/name)"/>
-      <bind nodeset="/data/init/custom_place_name" type="string"/>
-      <bind nodeset="/data/init/place_type" type="select1"/>
-      <bind nodeset="/data/init/place_type_translation" type="string" calculate="jr:choice-name( /data/init/place_type ,' /data/init/place_type ')"/>
-      <bind nodeset="/data/init/generated_name" type="select1"/>
-      <bind nodeset="/data/init/generated_name_translation" type="string" calculate="jr:choice-name( /data/init/generated_name ,' /data/init/generated_name ')"/>
-      <bind nodeset="/data/contact" relevant="selected( /data/init/create_new_person ,'new_person')"/>
-      <bind nodeset="/data/contact/parent" type="string"/>
-      <bind nodeset="/data/contact/type" type="string"/>
-      <bind nodeset="/data/contact/contact_type" type="string"/>
-      <bind nodeset="/data/contact/name" type="string" required="true()"/>
-      <bind nodeset="/data/contact/phone" type="tel" constraint="true()" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678"/>
-      <bind nodeset="/data/contact/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
-      <bind nodeset="/data/contact/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
-      <bind nodeset="/data/contact/meta/created_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
-      <bind nodeset="/data/community_health_area/parent" type="string"/>
-      <bind nodeset="/data/community_health_area/type" type="string"/>
+      <bind nodeset="/data/community_health_area/parent" type="string" readonly="true()"/>
+      <bind nodeset="/data/community_health_area/type" type="string" readonly="true()"/>
       <bind nodeset="/data/community_health_area/contact_type" type="string"/>
+      <bind nodeset="/data/community_health_area/contact/name" type="string"/>
+      <bind nodeset="/data/community_health_area/contact/contact_name" type="string" calculate="../name"/>
+      <bind nodeset="/data/community_health_area/contact/_id" type="db:person"/>
       <bind nodeset="/data/community_health_area/name" type="string" required="true()"/>
       <bind nodeset="/data/community_health_area/cha_code" type="string" required="true()"/>
       <bind nodeset="/data/community_health_area/selected_county" type="select1" required="true()"/>
       <bind nodeset="/data/community_health_area/selected_sub_county" type="select1" required="true()"/>
       <bind nodeset="/data/community_health_area/selected_ward" type="select1" required="true()"/>
       <bind nodeset="/data/community_health_area/location" type="string" required="true()"/>
-      <bind nodeset="/data/community_health_area/other_notes" type="string"/>
-      <bind nodeset="/data/community_health_area/contact" type="string" calculate="if(selected( /data/init/create_new_person ,'none'), &quot;&quot;, coalesce( /data/init/select_person ,&quot;NEW&quot;))"/>
+      <bind nodeset="/data/community_health_area/other_notes" type="string" required="true()"/>
       <bind nodeset="/data/community_health_area/geolocation" type="string" calculate="concat(../../inputs/meta/location/lat, concat(' ', ../../inputs/meta/location/long))"/>
-      <bind nodeset="/data/community_health_area/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
-      <bind nodeset="/data/community_health_area/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
-      <bind nodeset="/data/community_health_area/meta/created_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
+      <bind nodeset="/data/community_health_area/meta/created_by" type="string" readonly="true()"/>
+      <bind nodeset="/data/community_health_area/meta/created_by_person_uuid" type="string" readonly="true()"/>
+      <bind nodeset="/data/community_health_area/meta/created_by_place_uuid" type="string"/>
+      <bind nodeset="/data/community_health_area/meta/last_edited_by" type="string" calculate="../../../inputs/user/name"/>
+      <bind nodeset="/data/community_health_area/meta/last_edited_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
+      <bind nodeset="/data/community_health_area/meta/last_edited_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
+      <bind nodeset="/data/init/place_type" type="select1" calculate="&quot;community_health_area&quot;"/>
+      <bind nodeset="/data/init/place_type_translation" type="string" calculate="jr:choice-name( /data/init/place_type ,' /data/init/place_type ')"/>
+      <bind nodeset="/data/init/select_generated_name" type="select1" calculate="&quot;community_health_area&quot;"/>
+      <bind nodeset="/data/init/generated_name_translation" type="string" calculate="if (boolean( /data/community_health_area/contact/_id ), jr:choice-name( /data/init/select_generated_name ,' /data/init/select_generated_name '), '')"/>
       <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
-  <h:body class="pages">
+  <h:body>
     <group ref="/data/inputs">
       <group ref="/data/inputs/user">
         <input ref="/data/inputs/user/contact_id"/>
@@ -21785,77 +21694,21 @@
         <input ref="/data/inputs/user/name"/>
       </group>
     </group>
-    <group appearance="field-list" ref="/data/init">
-      <select1 ref="/data/init/create_new_person">
-        <label ref="jr:itext('/data/init/create_new_person:label')"/>
-        <item>
-          <label ref="jr:itext('/data/init/create_new_person/new_person:label')"/>
-          <value>new_person</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/create_new_person/old_person:label')"/>
-          <value>old_person</value>
-        </item>
-      </select1>
-      <input appearance="db-object" ref="/data/init/select_person">
-        <label ref="jr:itext('/data/init/select_person:label')"/>
-      </input>
-      <input appearance="hidden" ref="/data/init/name"/>
-      <select1 appearance="hidden" ref="/data/init/place_type">
-        <label ref="jr:itext('/data/init/place_type:label')"/>
-        <item>
-          <label ref="jr:itext('/data/init/place_type/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/place_type/area_supervisor_region:label')"/>
-          <value>area_supervisor_region</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/place_type/community_health_area:label')"/>
-          <value>community_health_area</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/place_type/household:label')"/>
-          <value>household</value>
-        </item>
-      </select1>
-      <select1 appearance="hidden" ref="/data/init/generated_name">
-        <item>
-          <label ref="jr:itext('/data/init/generated_name/area_health_facility:label')"/>
-          <value>area_health_facility</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/generated_name/area_supervisor_region:label')"/>
-          <value>area_supervisor_region</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/generated_name/community_health_area:label')"/>
-          <value>community_health_area</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/data/init/generated_name/household:label')"/>
-          <value>household</value>
-        </item>
-      </select1>
-      <group appearance="field-list" ref="/data/contact">
-        <input ref="/data/contact/name">
-          <label ref="jr:itext('/data/contact/name:label')"/>
-        </input>
-        <input ref="/data/contact/phone">
-          <label ref="jr:itext('/data/contact/phone:label')"/>
-        </input>
-        <group appearance="hidden" ref="/data/contact/meta"/>
-        </group>
-      </group>
     <group appearance="field-list" ref="/data/community_health_area">
+      <group ref="/data/community_health_area/contact">
+        <input appearance="hidden" ref="/data/community_health_area/contact/name"/>
+        <input appearance="db-object" ref="/data/community_health_area/contact/_id">
+          <label ref="jr:itext('/data/community_health_area/contact/_id:label')"/>
+          <hint ref="jr:itext('/data/community_health_area/contact/_id:hint')"/>
+        </input>
+      </group>
       <input ref="/data/community_health_area/name">
         <label ref="jr:itext('/data/community_health_area/name:label')"/>
       </input>
       <input ref="/data/community_health_area/cha_code">
         <label ref="jr:itext('/data/community_health_area/cha_code:label')"/>
       </input>
-      <select1 appearance="autocomplete" ref="/data/community_health_area/selected_county">
+      <select1 appearance="minimal" ref="/data/community_health_area/selected_county">
         <label ref="jr:itext('/data/community_health_area/selected_county:label')"/>
         <item>
           <label ref="jr:itext('/data/community_health_area/selected_county/mombasa:label')"/>
@@ -22046,14 +21899,14 @@
           <value>nairobi</value>
         </item>
       </select1>
-      <select1 appearance="autocomplete" ref="/data/community_health_area/selected_sub_county">
+      <select1 appearance="minimal" ref="/data/community_health_area/selected_sub_county">
         <label ref="jr:itext('/data/community_health_area/selected_sub_county:label')"/>
         <itemset nodeset="instance('sub_counties')/root/item[county= /data/community_health_area/selected_county ]">
           <value ref="name"/>
           <label ref="jr:itext(itextId)"/>
         </itemset>
       </select1>
-      <select1 appearance="autocomplete" ref="/data/community_health_area/selected_ward">
+      <select1 appearance="minimal" ref="/data/community_health_area/selected_ward">
         <label ref="jr:itext('/data/community_health_area/selected_ward:label')"/>
         <itemset nodeset="instance('wards')/root/item[sub_county= /data/community_health_area/selected_sub_county ]">
           <value ref="name"/>
@@ -22065,9 +21918,46 @@
       </input>
       <input appearance="multiline" ref="/data/community_health_area/other_notes">
         <label ref="jr:itext('/data/community_health_area/other_notes:label')"/>
-        <hint ref="jr:itext('/data/community_health_area/other_notes:hint')"/>
       </input>
       <group appearance="hidden" ref="/data/community_health_area/meta"/>
+    </group>
+    <group appearance="field-list hidden" ref="/data/init">
+      <select1 appearance="hidden" ref="/data/init/place_type">
+        <item>
+          <label ref="jr:itext('/data/init/place_type/area_health_facility:label')"/>
+          <value>area_health_facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/place_type/area_supervisor_region:label')"/>
+          <value>area_supervisor_region</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/place_type/community_health_area:label')"/>
+          <value>community_health_area</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/place_type/household:label')"/>
+          <value>household</value>
+        </item>
+      </select1>
+      <select1 appearance="hidden" ref="/data/init/select_generated_name">
+        <item>
+          <label ref="jr:itext('/data/init/select_generated_name/area_health_facility:label')"/>
+          <value>area_health_facility</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/select_generated_name/area_supervisor_region:label')"/>
+          <value>area_supervisor_region</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/select_generated_name/community_health_area:label')"/>
+          <value>community_health_area</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/select_generated_name/household:label')"/>
+          <value>household</value>
+        </item>
+      </select1>
     </group>
   </h:body>
 </h:html>
