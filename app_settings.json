@@ -14,11 +14,17 @@
   "date_format": "D MMM, YYYY",
   "reported_date_format": "DD-MMM-YYYY HH:mm:ss",
   "roles": {
+    "analytics": {
+      "name": "Analytics"
+    },
+    "gateway": {
+      "name": "Gateway"
+    },
     "program_officer": {
-      "name": "Program Officer"
+      "name": "Program Officer (App Admin)"
     },
     "chp_supervisor": {
-      "name": "Community Health Assistant (CHA)",
+      "name": "CHP Supervisor",
       "offline": true
     },
     "chp": {
@@ -49,6 +55,7 @@
       "chp"
     ],
     "can_create_records": [
+      "gateway",
       "program_officer",
       "chp_supervisor",
       "chp"
@@ -75,6 +82,7 @@
       "program_officer"
     ],
     "can_edit": [
+      "gateway",
       "program_officer",
       "chp_supervisor",
       "chp"
@@ -101,6 +109,7 @@
       "program_officer"
     ],
     "can_export_messages": [
+      "analytics",
       "program_officer",
       "chp_supervisor",
       "chp"
@@ -128,6 +137,7 @@
       "chp"
     ],
     "can_view_analytics": [
+      "analytics",
       "chp_supervisor",
       "chp"
     ],
@@ -191,6 +201,7 @@
       "chp_supervisor"
     ],
     "can_view_unallocated_data_records": [
+      "gateway",
       "program_officer",
       "chp_supervisor",
       "chp"
@@ -210,12 +221,25 @@
   },
   "contact_types": [
     {
+      "id": "area_health_facility",
+      "icon": "area-health-facility",
+      "name_key": "contact.type.area_health_facility",
+      "group_key": "contact.type.area_health_facility.plural",
+      "create_key": "contact.type.area_health_facility.new",
+      "edit_key": "contact.type.area_health_facility.edit",
+      "create_form": "form:contact:area_health_facility:create",
+      "edit_form": "form:contact:area_health_facility:edit"
+    },
+    {
       "id": "area_supervisor_region",
       "icon": "area-supervisor-region",
       "name_key": "contact.type.area_supervisor_region",
       "group_key": "contact.type.area_supervisor_region.plural",
       "create_key": "contact.type.area_supervisor_region.new",
       "edit_key": "contact.type.area_supervisor_region.edit",
+      "parents": [
+        "area_health_facility"
+      ],
       "create_form": "form:contact:area_supervisor_region:create",
       "edit_form": "form:contact:area_supervisor_region:edit"
     },
